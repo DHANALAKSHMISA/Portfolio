@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <title>Your Name - Portfolio</title>
+</head>
+<body>
+   <header>
+        <div class="container">
+            <h1>PORTFOLIO WEBSITE</h1>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">PROJECTS</a></li>
+                <li><a href="#">CONTACT ME</a></li></li>
+             </ul>
+             </nav>
+          
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <h2 style="font-family:Bahnschrift Light">ABOUT ME:</h2>
+            <img src="3.jpg" alt="Dhanalakshmi">
+            <p style="text-align:center"; ><h3 style="font-family:Bahnschrift Light">
+                I am Dhanalakshmi S, pursuing my  2nd BE-Computer Science in RMK Engineering College,Chennai.
+                As a software Engineering student, I had immersed in the dynamic world of creating,designing and maintaining software systems. 
+                Throughout my academic journey, also I am delve into programming languages, algorithms, data structures, and software development methodologies.</h3></p>
+          </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h2 style="font-family:Bahnschrift Light">MY PROJECTS:</h2>
+            <!-- Add your projects here -->
+            <div class="project">
+                <h3 style ="color:rgb(216, 25, 137);">1.Titanic Classification</h3>
+               <p>Building a predictive model to determine the likelihood of survival for passengers on the Titanic using data science Techniques in Python.</p>
+            <h3  style ="color:rgb(216, 25, 137);">2.SMS Classifier:</h2>
+            <p>Developing a text classification model to classify SMS as either spam or non-spam using Data Science Techniques.</p>
+            <h3  style ="color:rgb(216, 25, 137);">3.Simple Calculator</h3>
+            <p> Designing a simple calculator to perform a basic arithmetic operations, and displaying the results, using Python programming language.</p>
+            <h3  style ="color:rgb(216, 25, 137);">4.Password Generator</h3>
+            <p>Creating a Password Generator, is a tool generates a random password for users to specify the length and complexity of the password.</p>
+            <h3  style ="color:rgb(216, 25, 137);">5.Rock-Paper-Scissors Game</h2>
+            <p>Generating a random choice(rock,paper or scissors) for the computer. Prompt the user to choose rock, paoer, scissors.</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2 style="font-family:Bahnschrift Light";>SKILLS:</h2>
+            <!-- Add your skills here -->
+            <ul>
+                <li><h3  style="color:rgb(216, 25, 137)">Programming Languages:</h3> <h4> C, C++, Java, Python</h4></li>
+                <li><h3 style="color:rgb(216, 25, 137)">Web Development:</h3><h4> HTML, CSS, JavaScript.</h4></li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <h2 style="font-family:Bahnschrift Light";>CONTACT:</h2>
+            <p>GMail: dhan22026.cs@rmkec.ac.in</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/dhanalakshmi-s-7ab508263/">LinkedIn Profile</a></p>
+            <p>GitHub: <a href="https://github.com/DHANALAKSHMISA">Github Profile</a></p>
+        </div>
+    </footer>
+</body>
+</html>
